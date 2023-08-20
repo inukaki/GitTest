@@ -7,8 +7,15 @@
     android:orientation="vertical">
 
     <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_text" />
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:autoText="false"
         android:text="@string/tv_name" />
     <EditText
         android:id="@+id/etName"
